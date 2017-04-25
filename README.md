@@ -1,4 +1,7 @@
-# api documentation for  [page (v1.7.1)](https://github.com/visionmedia/page.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-page.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-page) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-page.svg)](https://travis-ci.org/npmdoc/node-npmdoc-page)
+# npmdoc-page
+
+#### basic api documentation for  [page (v1.7.1)](https://github.com/visionmedia/page.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-page.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-page) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-page.svg)](https://travis-ci.org/npmdoc/node-npmdoc-page)
+
 #### Tiny client-side router
 
 [![NPM](https://nodei.co/npm/page.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/page)
@@ -80,7 +83,8 @@
         "test": "jshint index.js test/tests.js && mocha test/tests.js",
         "test-cov": "jscoverage index.js index-cov.js; PAGE_COV=1 mocha test/tests.js -R html-cov > coverage.html"
     },
-    "version": "1.7.1"
+    "version": "1.7.1",
+    "bin": {}
 }
 ```
 
